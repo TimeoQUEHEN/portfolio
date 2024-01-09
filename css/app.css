@@ -20,10 +20,19 @@ body {
     opacity: 50%;
 }
 
+.langue {
+    position: absolute;
+    right: 2rem;
+}
+
 @media (min-aspect-ratio: 1/1) {
     .backgroundImg {
         width: auto;
         height: 95%;
+    }
+    .langue {
+        height : 5%;
+        width : auto;
     }
 }
 
@@ -240,11 +249,19 @@ td {
     font-family: Ubuntu, serif;
 }
 
+#scolaire {
+    border-radius: 15px;
+    margin: auto;
+}
+
 #abtPlus {
     background-color: #fafafa;
     border: 2px black solid;
     border-radius: 15px;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .plus {
@@ -270,6 +287,11 @@ td {
 @media (min-aspect-ratio: 1/1) {
     #logoLKD {
         width: 20%;
+        height: auto;
+    }
+
+    #scolaire {
+        width: 35%;
         height: auto;
     }
 
@@ -381,6 +403,7 @@ td {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #navProjets>a {
