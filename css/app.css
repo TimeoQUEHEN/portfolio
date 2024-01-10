@@ -323,6 +323,11 @@ td {
     }
 }
 
+#pdf {
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
 
 #mail {
     margin-right: 1rem;
