@@ -201,7 +201,6 @@ body {
 
 
 #bgdAbout {
-    background-image: url("../images/purple.png");
     padding: 1rem;
     z-index: -2;
 }
@@ -354,7 +353,6 @@ td {
 
 
 #bgdTools {
-    background-image: url("../images/green.png");
     padding: 1rem;
 }
 
@@ -400,7 +398,6 @@ td {
 
 
 #bgdProjects {
-    background-image: url("../images/orange.png");
     padding: 1rem;
 }
 
