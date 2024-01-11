@@ -160,10 +160,11 @@ footer>nav>a {
     width: 100%;
     background-color: #fafafa;
     transition: 1s;
+    object-fit: cover;
 }
 
 .competImg:hover {
-    height: 60%;
+    height: 65%;
     z-index: 1;
 }
 
@@ -425,6 +426,10 @@ td {
 .logo {
     border-radius: 15px;
     align-self: center;
+}
+
+.linkGit {
+    width: fit-content;
 }
 
 .diapo {
