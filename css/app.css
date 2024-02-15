@@ -10,6 +10,7 @@
 
 body {
     background-image: url("../images/blue.png");
+
 }
 
 .backgroundImg {
@@ -23,6 +24,7 @@ body {
 .langue {
     position: absolute;
     right: 2rem;
+    max-height: 5%;
 }
 
 @media (min-aspect-ratio: 1/1) {
@@ -82,6 +84,7 @@ header>nav>a {
 .btnClr:hover {
     text-decoration: none;
     font-size: medium;
+    cursor: pointer;
 }
 
 header>nav>a:first-child {
@@ -95,6 +98,17 @@ footer {
     background-color: #1a202c;
     padding: 1rem;
     font-family: "Nova Round", serif;
+    position: absolute;
+    width: calc(100% - 2rem);
+}
+
+.footer_index {
+    background-color: #1a202c;
+    padding: 1rem;
+    font-family: "Nova Round", serif;
+    position: absolute;
+    top: 100%;
+    width: calc(100% - 2rem);
 }
 
 footer>nav {
@@ -145,7 +159,7 @@ footer>nav>a {
     border: 2px black solid;
     background-color: #fafafa;
     max-width: 30%;
-    margin-left: 2rem;
+    margin-left: 2vw;
 }
 
 
@@ -185,6 +199,7 @@ h6 {
     width: 90%;
     font-family: Ubuntu, serif;
     border-top: 2px solid black;
+    overflow: auto;
 
 }
 
