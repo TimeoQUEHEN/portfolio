@@ -51,7 +51,7 @@ body {
     right: 1rem;
     bottom: 1rem;
     text-decoration: none;
-
+    scroll-behavior: smooth;
 }
 
 header>nav {
@@ -464,4 +464,8 @@ td {
 .diapo>img:first-child, .diapo>img:nth-child(5) {
     margin-left: 1rem;
     width: 30%;
+}
+
+.borders {
+    border: #1a202c 1px solid;
 }
